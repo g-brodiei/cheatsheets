@@ -1,7 +1,10 @@
-# creating a color tinted terminal for git
-# this should replace certain lines inside bashrc or profile.
+# Git Colored Terminal
 
-''' bash
+creating a color tinted terminal for git
+
+this should replace certain lines inside bashrc or profile.
+
+```bash
 # Colors
 BLACK="\[\033[0;30m\]"
 BLACKBOLD="\[\033[1;30m\]"
@@ -50,4 +53,3 @@ else
         PS1="\n$BLACKBOLD[$BASE\t$BLACKBOLD][$RED\u$BLACKBOLD][$WHITE\h$BLACKBOLD]$BASE \w$BLUE\$(parse_git_branch)\[\033[00m\] $BLACKBOLD$ $BASE"
 fi
 unset color_prompt force_color_prompt
-'''
