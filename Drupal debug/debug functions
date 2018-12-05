@@ -1,0 +1,5 @@
+variables name  |  description
+--|--
+dpm($variables);  | display a list of arrays in object
+dpm(array_keys(get_defined_vars()));  | display a list of all usable variables in the current page
+  |
