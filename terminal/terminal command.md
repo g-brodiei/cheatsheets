@@ -1,6 +1,6 @@
 | 指令內容                                   | 指令說明                               |
 | -------------------------------------- | ---------------------------------- |
-| cd                                     | 
+| cd [directory]                         | 切換至目錄                           |
 | sudo su                                | 使用root權限                           |
 | sudo apt-get install [package_name]    | 安裝軟體或是特定封包                         |
 | sudo apt-get update                    | 更新                                 |
